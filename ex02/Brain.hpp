@@ -14,7 +14,7 @@ class Brain
 		virtual	~Brain(void);
 
 		// Assign operator overload
-		virtual Brain	&operator=(const Brain &rhs);
+		Brain	&operator=(const Brain &rhs);
 
 		// Getter function part
 		std::string	getIdea(int i) const;
